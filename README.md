@@ -22,7 +22,7 @@ Fine-Tuned Model Layers by unfreezing parts of the ResNet50 base model and train
 ### 🌍Skills:
 
 
-Skills (CNN & ResNet50 Focused):
+#### Skills (CNN & ResNet50 Focused):
 1.Image classification using CNN and ResNet50 (transfer learning)
 
 2.Model building and training with Keras (Conv2D, MaxPooling2D, Dense)
