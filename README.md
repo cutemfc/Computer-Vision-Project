@@ -10,11 +10,11 @@ This project aims to identify 10 class objects using convolutional Neural Networ
 This project focuses on multi-class image classification using the CIFAR-10 dataset, which contains 60,000 color images (32x32 pixels) spanning 10 mutually exclusive classes. The dataset is split into 10,000 training images and 10,000 test images for experimental consistency. A custom classification head was created and combined with a pre-trained ResNet50 model (CNN architecture) to leverage the power of transfer learning. The ResNet50 base model was initially frozen, and later selectively fine-tuned for performance enhancement.
 
 ### 🧪 Experiments Conducted:
-Increased Dropout Layers to reduce overfitting and improve generalization.
+1.Increased Dropout Layers to reduce overfitting and improve generalization.
  
-Tuned Regularization Weights (e.g., L2 penalties) to optimize learning and reduce complexity.
+2.Tuned Regularization Weights (e.g., L2 penalties) to optimize learning and reduce complexity.
 
-Fine-Tuned Model Layers by unfreezing parts of the ResNet50 base model and training additional layers to improve feature learning.
+3.Fine-Tuned Model Layers by unfreezing parts of the ResNet50 base model and training additional layers to improve feature learning.
 
 
 
