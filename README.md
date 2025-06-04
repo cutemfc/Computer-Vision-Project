@@ -1,5 +1,5 @@
 # Computer-Vision-Project
-# 🎇Computer-Vision-Project (Convolutional Neural Network)
+# 🎑Computer-Vision-Project (Convolutional Neural Network)
 ### Data of this project is download from CIFAR-10 dataset
 
 
