@@ -9,7 +9,7 @@ This project aims to identify 10 class objects using convolutional Neural Networ
 ### 🌍Descriptions:
 This project focuses on multi-class image classification using the CIFAR-10 dataset, which contains 60,000 color images (32x32 pixels) spanning 10 mutually exclusive classes. The dataset is split into 10,000 training images and 10,000 test images for experimental consistency. A custom classification head was created and combined with a pre-trained ResNet50 model (CNN architecture) to leverage the power of transfer learning. The ResNet50 base model was initially frozen, and later selectively fine-tuned for performance enhancement.
 
-### 🧪 Experiments Conducted:
+### 🌍 Experiments Conducted:
 1.Increased Dropout Layers to reduce overfitting and improve generalization.
  
 2.Tuned Regularization Weights (e.g., L2 penalties) to optimize learning and reduce complexity.
@@ -33,15 +33,15 @@ This project focuses on multi-class image classification using the CIFAR-10 data
 
 5.Model evaluation and performance visualization (confusion matrix, accuracy/loss curves)
 
-### Insight:
-1.Exploratory data analysis revealed that holidays and the perishability of items significantly impact unit sales.
+### 🌍Insight:
+1. Fine-tuning ResNet50 boosts accuracy – By carefully unfreezing the last 100 layers and using a low learning rate, the model achieved a significant accuracy improvement from 59.5% to 70.8%.
 
-2.The naive model served as a baseline, while XGBoost achieved the best performance with a mean absolute percentage error (MAPE) of 9.49% and an R² score of 0.59.
+2. Hyperparameter tuning reduced overfitting, with dropout layers (0.5, 0.3) and L2 regularization tweaks enhancing model stability.
 
-3.Hyperparameter tuning further improved the predictive accuracy of the XGBoost model.
-
-4.A Streamlit app was developed to provide an interactive interface for forecasting future sales and anticipating customer demand.
+3. Traffic-related objects (automobile, ship, truck) were easier to classify (F1 > 0.8), while animals (cat, deer, dog) had lower accuracy (F1 < 0.7).
 
 
-### Presentation
+
+
+### 🌍Presentation
 [Presentation](https://youtu.be/zcPRyP_dtSE)
