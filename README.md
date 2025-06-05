@@ -34,11 +34,11 @@ This project focuses on multi-class image classification using the CIFAR-10 data
 5.Model evaluation and performance visualization (confusion matrix, accuracy/loss curves)
 
 ### 🌍Insight:
-1. Fine-tuning ResNet50 boosts accuracy – By carefully unfreezing the last 100 layers and using a low learning rate, the model achieved a significant accuracy improvement from 59.5% to 70.8%.
+1.Fine-tuning ResNet50 boosts accuracy – By carefully unfreezing the last 100 layers and using a low learning rate, the model achieved a significant accuracy improvement from 59.5% to 70.8%.
 
-2. Hyperparameter tuning reduced overfitting, with dropout layers (0.5, 0.3) and L2 regularization tweaks enhancing model stability.
+2.Hyperparameter tuning reduced overfitting, with dropout layers (0.5, 0.3) and L2 regularization tweaks enhancing model stability.
 
-3. Traffic-related objects (automobile, ship, truck) were easier to classify (F1 > 0.8), while animals (cat, deer, dog) had lower accuracy (F1 < 0.7).
+3.Traffic-related objects (automobile, ship, truck) were easier to classify (F1 > 0.8), while animals (cat, deer, dog) had lower accuracy (F1 < 0.7).
 
 
 
