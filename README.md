@@ -44,4 +44,4 @@ This project focuses on multi-class image classification using the CIFAR-10 data
 
 
 ### 🌍Presentation
-[Presentation](https://youtu.be/zcPRyP_dtSE)
+[Presentation](https://youtu.be/jHebvklCHfM?si=5174kFwQ10ucbJI2)
